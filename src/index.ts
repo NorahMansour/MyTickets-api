@@ -1,13 +1,28 @@
-import { server } from './server';
+//import test from 'node:test';
+import { connectDb,prismaClient } from "./prisma";
+import { listen } from "./server";
 
-const port: any = process.env.PORT ?? process.env.$PORT ?? 3002;
 
-server
-	.listen({
-		port: port,
-		host: '0.0.0.0',
-	})
-	.catch((err) => {
-		server.log.error(err);
-		process.exit(1);
-	})
+
+
+  async function start() {
+    await connectDb();
+    listen();
+    //test();
+  }
+  start();
+
+/*async function test() {
+  await prismaClient.event.create({
+    data: {
+      name: "BLUV",
+      deta: "23JAN-29JAN",
+      Start_endTime: "4AM - 10PM",
+      location: "Ryiadh",
+      description: "fanny time",
+      tickets_count: "200",
+    },
+  });
+}*/
+
+//test();
