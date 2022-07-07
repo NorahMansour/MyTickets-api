@@ -21,38 +21,48 @@
 ## Stack
 1-Runtime Environment: Node.js
 
-2-Language: TypeScript/javaScript
+2-Language: TypeScript
 
 3-Web Server: Fastify
 
 4-ORM: Prisma
 
-5-DB: Postgres
+5-DB: MongoDB atls
 
 ## Requirements
-1-The admin/user shall be able to login to the systeam.
 
-2-The admin/user shall be able to logout of the systeam.
+--------------(Admin)------------------
 
-3-The admin shall be able to add events.
+1-The admin shall be able to login to the systeam.
 
-4-The admin shall be able to edit events information.
+2-The admin shall be able to logout of the systeam.
 
-5-The admin shall be able to delete events.
+3-The admin shall be able to update event information.
+
+4-The admin shall be able to create event information.
+
+5-The admin shall be able to delete event information.
 
 6- The admin shall be able to view all event.
 
 7-The admin shall be able to view the results of searched events.
 
+8- The admin shall be able to 
+
+9- 
 
 
-***************user ***************
 
-1-The user shall be able to view the results of searched events.
+--------------(USER)------------------
+1- The user shall be able to login to the systeam.
 
-2- The user shall be able to ticket reservation.
+2- The user shall be able to view all event.
 
-3-  The user shall be able to payment.
+2-The user shall be able to view the results of searched events.
 
-4- The user shall be able to recover payment.
+3- The user shall be able to ticket reservation.
+
+4-  The user shall be able to payment.
+
+
 
