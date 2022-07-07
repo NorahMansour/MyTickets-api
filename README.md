@@ -72,11 +72,11 @@ it provides an easy way to book your tickets, you can use the website to preview
 
 2- The user shall be able to view all event.
 
-2-The user shall be able to view the results of searched events.
+3-The user shall be able to view the results of searched events.
 
-3- The user shall be able to ticket reservation.
+4- The user shall be able to ticket reservation.
 
-4-  The user shall be able to payment.
+5-  The user shall be able to payment.
 
 
 
