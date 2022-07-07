@@ -1,6 +1,15 @@
 # MyTickets-api
 
 
+
+## Project description
+
+MyTickets is website that will show all events in your city, and for booking tickets for various trending events and entertainment festivals.
+it provides an easy way to book your tickets, you can use the website to preview your booked tickets.
+
+
+
+
 ## Features
 1-Login
 
@@ -33,6 +42,7 @@
 
 --------------(Admin)------------------
 
+
 1-The admin shall be able to login to the systeam.
 
 2-The admin shall be able to logout of the systeam.
@@ -47,13 +57,17 @@
 
 7-The admin shall be able to view the results of searched events.
 
-8- The admin shall be able to 
+8- The admin shall be able to add tickets .
 
-9- 
+9- The admin shall be able to delete tickets .
+
+10-The admin shall be able to add users.
 
 
 
 --------------(USER)------------------
+
+
 1- The user shall be able to login to the systeam.
 
 2- The user shall be able to view all event.
